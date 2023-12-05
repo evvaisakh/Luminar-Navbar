@@ -1,0 +1,24 @@
+.nav-item a {
+    color: #565656;
+    text-decoration: none;
+}
+
+.nav-item a::after {
+    content: "";
+    display: block;
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    width: 0px;
+    background-color: blueviolet;
+}
+
+.nav-item a:hover::after {
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.nav-item a:hover {
+    color: blueviolet;
+}
