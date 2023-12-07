@@ -11,7 +11,7 @@
     margin-right: auto;
     height: 2px;
     width: 0px;
-    background-color: blueviolet;
+    background-color: rgb(88 28 135);
 }
 
 .nav-item a:hover::after {
@@ -20,5 +20,106 @@
 }
 
 .nav-item a:hover {
-    color: blueviolet;
+    color: rgb(88 28 135);
+}
+
+.carousel-item img {
+    height: 450px;
+    filter: brightness(50%);
+}
+
+.carousel-caption {
+    margin-bottom: 5%;
+    margin-left: 4%;
+}
+
+.carousel-caption h1 {
+    font-size: 2rem;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}
+
+.slbtn,
+.btn-trig,
+.btnabout {
+    background-color: rgb(88 28 135);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: small;
+}
+
+.slbtn:hover {
+    background-color: rgb(192 132 252);
+    transition: all 0.3s ease-in-out;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+select {
+    width: 100%;
+}
+
+.btn-close {
+    margin: 20px 20px 0 450px;
+}
+
+.btnabout:hover,
+.btn-trig:hover {
+    background-color: white;
+    color: rgb(88 28 135);
+    border: solid rgb(88 28 135);
+    transition: all 0.3s ease-in-out;
+}
+
+.row h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color: rgb(88 28 135);
+    font-weight: 700;
+}
+
+.row h4 {
+    font-size: 18px;
+    color: rgb(192 132 252);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.row img {
+    width: 100%;
+}
+
+
+
+
+
+/* Media query for medium-sized screens */
+@media (max-width: 992px) {
+    .carousel-caption h1 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem;
+    }
 }
