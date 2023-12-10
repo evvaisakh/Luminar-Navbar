@@ -10,7 +10,8 @@
     color: white;
     background-color: rgb(88 28 135);
 }
-.top-head a{
+
+.top-head a {
     text-decoration: none;
     color: white;
 
@@ -149,6 +150,7 @@ select {
     margin-bottom: 15px;
     font-weight: 700;
     margin-top: 20px;
+    color: rgb(88 28 135);
 }
 
 .view {
