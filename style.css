@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+.top-head {
+    font-size: 13px;
+    padding: 8px;
+    color: white;
+    background-color: rgb(88 28 135);
+}
+.top-head a{
+    text-decoration: none;
+    color: white;
+
+}
+
 .nav-item a {
     color: #565656;
     text-decoration: none;
@@ -24,7 +42,7 @@
 }
 
 .carousel-item img {
-    height: 450px;
+    height: 500px;
     filter: brightness(50%);
 }
 
@@ -79,7 +97,7 @@ select {
     transition: all 0.3s ease-in-out;
 }
 
-.row h3 {
+.grid h3 {
     font-size: 32px;
     margin-bottom: 10px;
     padding-top: 10px;
@@ -87,7 +105,7 @@ select {
     font-weight: 700;
 }
 
-.row h4 {
+.grid h4 {
     font-size: 18px;
     color: rgb(192 132 252);
     font-weight: 400;
@@ -97,6 +115,101 @@ select {
 .row img {
     width: 100%;
 }
+
+.course {
+    background-color: rgb(245 245 245);
+    padding: 85px 0;
+}
+
+.course .row {
+    margin: 0 0 30px 0;
+}
+
+.course p i {
+    color: rgb(14 165 233);
+}
+
+.c-head {
+    font-size: 32px;
+    color: rgb(88 28 135);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.c-head span {
+    color: rgb(192 132 252);
+}
+
+.course a {
+    text-decoration: none;
+}
+
+.course a h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.view {
+    color: rgb(88 28 135);
+}
+
+.courses,
+.card {
+    width: 100%;
+    transition: all 0.2s ease-out;
+}
+
+.card-body {
+    height: 330px;
+    padding: 5px 25px 20px;
+}
+
+.card-body h3 {
+    font-size: 18px !important;
+    margin-bottom: 15px !important;
+    margin-top: 20px !important;
+    font-weight: 700 !important;
+    color: rgb(88 28 135);
+}
+
+.card-text {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.card-btn {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgb(88 28 135);
+    padding: 12px 20px;
+}
+
+.c-btn {
+    font-weight: 600;
+    padding: 16px 27px;
+    color: rgb(88 28 135);
+    border: 2px solid rgb(88 28 135);
+    border-radius: 50px;
+}
+
+.c-btn:hover {
+    color: white;
+    background-color: rgb(88 28 135);
+    transition: all 0.3s ease-in-out;
+}
+
+.courses:hover,
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.11);
+    transform: scale(1.01);
+}
+
+
+
+
 
 
 
